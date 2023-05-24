@@ -1,0 +1,108 @@
+.main-head{
+  
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  width: device-width;
+  background-color: rgb(0, 0, 0);
+  padding-top: 10px;
+}
+.left-section{
+  background-color: black;
+  width: 215px;
+  
+}
+.left-section img{
+  width: auto;
+  height: 24px;
+  padding-top: 15px;
+  padding-left: 60px;
+}
+.middle-section{
+  background-color: black;
+  flex: 1;
+  justify-content: left;
+  
+}
+.head-list{
+  list-style-type:none;
+  display: flex;
+  font-family: "open sans";
+  color: white;
+  
+}
+.head-list div{
+  margin-top: 15px;
+  padding-right: 25px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-color: #ffffff;
+  cursor:pointer;
+}
+.head-list div:hover{
+  
+  border-bottom-color: #ffffff ;
+  border-bottom: 1px solid;
+}
+.right-section{
+  background-color: rgb(0, 0, 0);
+  padding-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.right-section i{
+  font-size: medium;
+
+}
+
+.cover{
+  background-image: url('../images/amd _head_cover.webp');
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.cover-heading{
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: 600px;
+}
+.cover-byline{
+  color: white;
+  font-family: "open sans";
+  font-size: 20px;
+}
+
+.cover-writings{
+  padding-top: 241px;
+  padding-left: 60px;
+  
+  display: flex;
+  flex-direction: column;
+}
+.learn-button{
+  font-family: "open sans";
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background: transparent;
+  background: linear-gradient(to right, #141414, #666666);
+  box-shadow: -1px 1px 0 #ffffff, inset;
+  border-radius: 3px;
+  border-top: none;
+  border-left: none;
+  padding: 18px;
+  padding-right: 32px;
+  padding-left: 32px;
+  margin-left: 58px; 
+}
+.search-container {
+  display: none;
+}
+
+#search-box:target {
+  display: block;
+}

@@ -1,0 +1,260 @@
+.slides{
+  margin-top: 10px;
+  background-color: black;
+  color: grey;
+  display: flex;
+  height: 96px;
+  padding-left: 52px;
+  padding-right: 52px;
+}
+.slide-options{
+  
+  border-color: black;
+  border-top: rgb(82, 82, 82);
+  border-style: solid;
+  width: 100%;
+  height: 96px;
+  font-family: "Open Sans";
+  margin-right: 17px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.slide-options:hover{
+  color: white;
+  border-top: rgb(255, 255, 255);
+  border-style: solid;
+}
+.products{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  padding-left: 67px;
+  padding-right: 67px;
+}
+.product-1,.product-3{
+  width: 390px;
+  height: 550px;
+  display: flex;
+    flex-direction: column;
+  position: relative;
+  color: white;
+  text-align: left;
+  line-height: 40px;
+}
+.product-2{
+  width: 373px;
+  height: 495px;
+  display: flex;
+    flex-direction: column;
+  position: relative;
+  color: white;
+  text-align: left;
+  line-height: 25px;
+}
+.products img{
+  width: 350px;
+  height: 290px;
+}
+.product-button{
+  width: 167px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+  font-family: "open sans";
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+ padding-left: 50px;
+ transition: background-color 0.15s,color 0.15s;
+  }
+  .product-button:hover{
+    background-color: white;
+    color: black;
+  }
+.products h5,.solutions h5{
+  font-size: 18px;
+  
+}
+.solutions{
+  margin-left: 200px;
+  background-image: url('../images/car_cover.webp');
+  width: 1228;
+  height: 400px;
+  display: flex;
+  justify-content: cover;
+  position: relative;
+  background-color: rgb(248, 248, 248);
+  color: white;
+}
+
+.solution-text{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-content: center;
+  padding-left: 100px;
+} 
+.solution-text p{
+  padding-top: 13px;
+  
+}
+.solution-text h5:hover,.Learn-more-solution:hover{
+  text-decoration: underline;
+}
+.solution-option{
+  color: white;
+  font-size: 19px;
+  margin-left: 200px;
+  margin-right: 220px;
+  margin-top: 40px;
+  display: flex;
+  
+  position: relative;
+  grid-template-columns: 1fr fr 1fr 1fr;
+  grid-gap: 100px;
+  
+}
+.opt{
+  border-color: rgb(85, 85, 85);
+  border-style: solid;
+  border-width: 2px;
+  width: 3000px;
+  height: 150px;
+  font-weight: 800;
+  padding: 15px;
+  
+}
+.opt:active{
+  border-color: white;
+  border-style: solid;
+}
+.opt:hover{
+  background: linear-gradient(to right, rgb(0, 0, 0),rgb(255, 255, 255));
+  box-shadow: -1px 10px -1px #ffffff, inset;
+}
+
+.case1{
+  margin: 0 170px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 352px;
+  grid-column-gap: 30px;
+  justify-content: center;
+}
+.case-heading,.case-desp{
+  font-family: "Open sans";
+  color: #ffffff;
+  padding: 0 60px;
+  width: auto;
+}
+.case-heading{
+  font-size: 25px;
+  margin-bottom: 0px;
+  
+}
+
+.case-button{
+  color: white;
+  background: transparent;
+  border: 0.5px white solid;
+  padding: 20px;
+  margin-left: 50px;
+  font-family: "open sans";
+  font-size: medium;
+  
+}
+.case2{
+  margin: 30px 170px 0 170px;
+  display: grid;
+  grid-template-columns: 1.7fr 1.3fr;
+  height: 302px;
+  grid-column-gap: 30px;
+  justify-content: center;
+}
+.automotive-case{
+  background-image: url('../images/case1.webp');
+  background-size: cover;
+  background-position: center;
+}
+.media-case{
+  background-image: url('../images/case2.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.super-case{
+  background-image: url('../images/case3.webp');
+  background-size: cover;
+  background-position: center;
+}
+.health-case{
+  background-image: url('../images/case4.webp');
+  background-size: cover;
+  background-position: center;
+}
+.news-container
+{
+  margin: 0 190px;
+  display: flex;
+  justify-content: space-between;
+}
+.news{
+  position: relative;
+  width: 327px;
+  height: 438px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: rgb(22, 21, 21);
+  overflow: hidden
+}
+.news img{
+  width: 100%; /* Set the image width to 100% of the container width */
+  height: 40%; /* Set the image height to 100% of the container height */
+  object-fit: cover; 
+  border-radius: 4px;
+  transition: transform 0.3s
+}
+.news:hover{
+  text-decoration: underline;
+  
+}
+.news:hover img{
+  transform: scale(1.1);
+}
+.date{
+  position: absolute;
+  bottom: 20px;
+  left: 13px;
+  color: rgb(134, 133, 133);
+  font-weight: 1;
+  font-size: 14px;
+}
+.mid-eye{
+  background-image: url('../images/paralax.webp');
+  width: 100%;
+  height: 600px;
+  text-align: center;  
+}
+.mid-eye h3{
+ padding-top: 200px;
+ padding-right: 300px;
+}
+.mid-eye button{
+  background: linear-gradient(to right,black,white);
+  opacity:50%;
+  padding: 20px 30px;
+  color: #ffffff;
+  font-size: 17px;
+  
+  
+}

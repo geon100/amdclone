@@ -1,0 +1,43 @@
+.subscriptions{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 70px
+}
+.foot-list p{
+  margin: 3px;
+  font-size: 14px;
+  color: grey;
+}
+.foot-list h4{
+  margin-bottom: 10px;
+}
+.foot-list p:hover,.bottom-list p:hover{
+text-decoration: underline;
+color: white;
+}
+
+.foot-list-container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin:  0 100px;
+}
+.bottom-list{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px;
+  font-size: 14px;
+  padding-right: 100px;
+  color: grey;
+}
+
+.endtag{
+  text-align: center;
+  font-size: 14px;
+  padding-right: 100px;
+  color: grey;
+  margin: 10px 100px 100px 100px;
+}
